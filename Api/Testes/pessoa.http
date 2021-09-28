@@ -1,0 +1,29 @@
+###
+/POST https://localhost:5001/api/pessoa/create
+Content-Type: application/json
+
+{
+        "Nome" : "Tymar",    
+        "Cpf"  : "cpf",
+        "Descricao" : "Teste"
+}
+###
+OBTER https: // localhost: 5001 / api / pessoa / list
+
+###
+GET https: // localhost: 5001 / api / pessoa / getbyid / 1
+
+###
+DELETE https: // localhost: 5001 / api / pessoa / delete / Tymar
+
+###
+PUT https: // localhost: 5001 / api / pessoa / update
+Tipo de conteúdo: application / json
+
+{
+    "Id": 1,
+    "Nome": "Pessoa alterado",
+    "Cpf" : "rg",
+    "Descricao": "Testado"
+    
+}
