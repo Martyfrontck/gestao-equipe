@@ -24,7 +24,7 @@ namespace API.Controllers
         [Route("create")]
         public async Task<IActionResult> CreateAsync([FromBody] Pessoa pessoa)
         {
-            _context.Pessoa.Add(pessoa);
+            _context.Pessoas.Add(pessoa);
             await _context.SaveChangesAsync();
             return Created("", pessoa);
         }
@@ -32,14 +32,14 @@ namespace API.Controllers
         // GET: api/pessoa/list
         [HttpGet]
         [Route("list")]
-        public async Task<IActionResult> ListAsync() => Ok(await _context.Pessoa.ToListAsync());
+        public async Task<IActionResult> ListAsync() => Ok(await _context.Pessoas.ToListAsync());
 
-        // GET: api/pessoa/getbyid/5
+        // GET: api/pessoa/getbyid
         [HttpGet]
         [Route("getbyid/{id}")]
         public async Task<IActionResult> GetByIdAsync([FromRoute] int id)
         {
-            Pessoa pessoa = await _context.Pessoa.FindAsync(id);
+            Pessoa pessoa = await _context.Pessoas.FindAsync(id);
             if (pessoa != null)
             {
                 return Ok(pessoa);
@@ -47,17 +47,17 @@ namespace API.Controllers
             return NotFound();
         }
 
-        // DELETE: api/pessoa/delete/bolacha
+        // DELETE: api/pessoa/delete
         [HttpDelete]
         [Route("delete/{name}")]
         public async Task<IActionResult> DeleteAsync([FromRoute] string name)
         {
             //Retorna o primeiro elemento com base na expressão lambda
-            Pessoa pessoa = _context.Pessoa.FirstOrDefault
+            Pessoa pessoa = _context.Pessoas.FirstOrDefault
             (
                 pessoa => pessoa.Nome == name
             );
-            _context.Pessoa.Remove(pessoa);
+            _context.Pessoas.Remove(pessoa);
             await _context.SaveChangesAsync();
             return Ok();
         }
@@ -67,7 +67,7 @@ namespace API.Controllers
         [Route("update")]
         public async Task<IActionResult> UpdateAsync([FromBody] Pessoa pessoa)
         {
-            _context.Pessoa.Update(pessoa);
+            _context.Pessoas.Update(pessoa);
             await _context.SaveChangesAsync();
             return Ok(pessoa);
         }

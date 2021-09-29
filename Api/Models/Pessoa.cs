@@ -12,7 +12,7 @@ namespace API.Models
  
             public string Nome {get; set;}
 
-            public double Cpf {get; set;}
+            public string Cpf {get; set;}
 
             public string Descricao { get; set;}
 
@@ -20,7 +20,7 @@ namespace API.Models
 
             public override string ToString()
             {
-                return $"Nome: {Nome} | Cpf: {Cpf.ToString("c2")} | Criado em:{ CriadoEm}";
+                return $"Nome: {Nome} | Cpf: {Cpf} | Criado em:{ CriadoEm}";
 
             } 
 

@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
+using API.Data;
 
 namespace API
 {
@@ -27,10 +28,21 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+        /*//Configuração para habilitar as requisições de outras origens - CORS
+            services.AddCors(
+                options =>
+
+                    options.AddPolicy("CorsPolicy", builder => builder
+                        .AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                    );
+                );*/
+
             
-            /*services.AddDbContext<DataContext>(
+            services.AddDbContext<DataContext>(
                 options => options.UseInMemoryDatabase("database")
-            );*/
+            );
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

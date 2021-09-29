@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\front\\GestaoEquipes\\API\\API.csproj": {}
+    "C:\\Users\\front\\GestaoEquipes\\gestao-equipe\\Api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\front\\GestaoEquipes\\API\\API.csproj": {
+    "C:\\Users\\front\\GestaoEquipes\\gestao-equipe\\Api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\front\\GestaoEquipes\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\front\\GestaoEquipes\\gestao-equipe\\Api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\front\\GestaoEquipes\\API\\API.csproj",
+        "projectPath": "C:\\Users\\front\\GestaoEquipes\\gestao-equipe\\Api\\API.csproj",
         "packagesPath": "C:\\Users\\front\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\front\\GestaoEquipes\\API\\obj\\",
+        "outputPath": "C:\\Users\\front\\GestaoEquipes\\gestao-equipe\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\front\\AppData\\Roaming\\NuGet\\NuGet.Config",

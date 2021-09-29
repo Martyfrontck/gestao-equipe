@@ -9,6 +9,7 @@ namespace API.Data
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
         
         // Lista de propriedades que serão transformadas em tabelas no banco de dados
-        public DbSet<Pessoa> Pessoa { get; set;}
+        public DbSet<Pessoa> Pessoas { get; set;}
 
     }
+}

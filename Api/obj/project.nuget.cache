@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IuKOfi5flikFoAxrKjCforwS3qtLf1sl+1TSH0g3vubQCOd7QG59ckDc39BWZfirDbj8ojXe3k/49YFYJSblpw==",
+  "dgSpecHash": "EswtFeNoouMrrSeSKJH3DOrdNvrpBLONxnZKtnIOhDpnHFem/T+f5SW9VbN7926gaQYScpXMyb94Ynt3p2GbiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\front\\GestaoEquipes\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\front\\GestaoEquipes\\gestao-equipe\\Api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\front\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.10\\microsoft.entityframeworkcore.5.0.10.nupkg.sha512",
     "C:\\Users\\front\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.10\\microsoft.entityframeworkcore.abstractions.5.0.10.nupkg.sha512",

@@ -740,11 +740,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\front\\GestaoEquipes\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\front\\GestaoEquipes\\gestao-equipe\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\front\\GestaoEquipes\\API\\API.csproj",
+      "projectPath": "C:\\Users\\front\\GestaoEquipes\\gestao-equipe\\API\\API.csproj",
       "packagesPath": "C:\\Users\\front\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\front\\GestaoEquipes\\API\\obj\\",
+      "outputPath": "C:\\Users\\front\\GestaoEquipes\\gestao-equipe\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\front\\AppData\\Roaming\\NuGet\\NuGet.Config",
