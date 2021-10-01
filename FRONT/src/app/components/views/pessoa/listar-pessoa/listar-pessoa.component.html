@@ -1,0 +1,8 @@
+<a routerLink="/pessoa/cadastrar">Novo Pessoa</a>
+
+<ol>
+    <li *ngFor="let pessoa of pessoas">
+        {{ pessoa.nome }}
+        <!-- <a routerLink="/pessoa/cadastrar/{{ pessoa.id }}">Novo Pessoa</a> -->
+    </li>
+</ol>
